@@ -17,7 +17,7 @@ import genericBaseClassUtility.BaseClass;
 public class createProduct extends BaseClass {
 
 	@Test
-	public void createProductTest() throws IOException, InterruptedException {
+	public void addProductTest() throws IOException, InterruptedException {
 
 		JavaUtility jUtil = new JavaUtility();
 		int randomNum = jUtil.getRandomNum(5000);

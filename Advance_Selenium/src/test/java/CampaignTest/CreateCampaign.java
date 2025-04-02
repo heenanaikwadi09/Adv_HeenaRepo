@@ -61,7 +61,7 @@ public class CreateCampaign extends BaseClass
 	
 	
 	@Test 
-	public void createCampaignDateTest() throws IOException, InterruptedException {
+	public void createCampaignWithDateTest() throws IOException, InterruptedException {
 	      
 	     JavaUtility jUtil = new JavaUtility();
 	     int randomNum = jUtil.getRandomNum(2000);
