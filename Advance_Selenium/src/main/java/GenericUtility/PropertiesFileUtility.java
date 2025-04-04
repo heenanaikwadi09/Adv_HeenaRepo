@@ -10,7 +10,7 @@ public class PropertiesFileUtility
 	public String readingDataFromPropFile(String Key) throws IOException
 	{
 		
-	FileInputStream fis = new FileInputStream("C:\\Users\\Heena\\eclipse-workspace\\Advance_Selenium\\src\\test\\resources\\CommonData.properties");
+	FileInputStream fis = new FileInputStream("C:\\Users\\Heena\\git\\Adv_HeenaRepo\\Advance_Selenium\\src\\test\\resources\\CommonData.properties");
 	Properties prop = new Properties();
 	prop.load(fis);
 	

@@ -14,7 +14,7 @@ import ObjectRepository.CreateCampaignPage;
 import ObjectRepository.DashboardPage;
 import genericBaseClassUtility.BaseClass;
 
-public class CreateCampaign extends BaseClass
+public class CreateCampaignTest extends BaseClass
 {
 
 	

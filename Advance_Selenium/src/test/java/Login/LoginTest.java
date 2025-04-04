@@ -17,7 +17,7 @@ public class LoginTest extends BaseClass
 	{
 		{
 
-			String expectedURL = "http://49.249.28.218:8098/dashboar";
+			String expectedURL = "http://49.249.28.218:8098/dashboard";
 
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));

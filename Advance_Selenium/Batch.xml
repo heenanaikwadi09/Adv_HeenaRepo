@@ -8,10 +8,10 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="CampaignTest.CreateCampaign" />
-			<class name="ProductTest.createProduct" />
+			<class name="CampaignTest.CreateCampaignTest" />
+			<class name="ProductTest.createProductTest" />
 			<class name="Login.LoginTest" />
-			<class name="ContactTest.createContact" />
+			<class name="ContactTest.createContactTest" />
 		</classes>
 	</test> <!--
 	Test -->
