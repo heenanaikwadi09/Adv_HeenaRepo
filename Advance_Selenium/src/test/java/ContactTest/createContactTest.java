@@ -16,7 +16,7 @@ import ObjectRepository.CreateContactPage;
 import ObjectRepository.DashboardPage;
 import genericBaseClassUtility.BaseClass;
 
-public class createContact extends BaseClass
+public class createContactTest extends BaseClass
 {
 	
 	@Test

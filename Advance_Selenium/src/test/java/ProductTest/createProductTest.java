@@ -14,7 +14,7 @@ import ObjectRepository.DashboardPage;
 import ObjectRepository.ProductPage;
 import genericBaseClassUtility.BaseClass;
 
-public class createProduct extends BaseClass {
+public class createProductTest extends BaseClass {
 
 	@Test
 	public void addProductTest() throws IOException, InterruptedException {
