@@ -49,6 +49,7 @@ public class BaseClass {
 	{
 		System.out.println("Launch the browser");
 		String BROWSER = prop.readingDataFromPropFile("browser");
+		//String BROWSER = System.getProperty("browser");    //To do executed from maven commands
 		ChromeOptions Coption=new ChromeOptions();
 		FirefoxOptions Foption=new FirefoxOptions();
 		EdgeOptions Eoption=new EdgeOptions();
@@ -80,9 +81,11 @@ public class BaseClass {
 	public void beforeMethod() throws IOException
 	{
 		System.out.println("Login");
-		String URL = prop.readingDataFromPropFile("url");
+		String URL = prop.readingDataFromPropFile("url"); 
 		String UN = prop.readingDataFromPropFile("uname");
+		//String UN = System.getProperty("uname"); //To do executed from maven commands
 		String PWD = prop.readingDataFromPropFile("pwd");
+		//String PWD = System.getProperty("pwd");   //To do executed from maven commands
 		driver.get(URL);
 		LoginPage lp=new LoginPage(driver);
 		lp.login(UN, PWD);

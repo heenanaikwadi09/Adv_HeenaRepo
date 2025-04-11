@@ -6,19 +6,59 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="LoginTest.LoginTest">
+      <class name="CampaignTest.CreateCampaignTest">
         <methods>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="createCampaignWithDateTest"/>
+          <include name="createCampaignTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- CampaignTest.CreateCampaignTest -->
+      <class name="ContactTest.createContactTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="createContactWithCampaignTest"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
           <include name="afterClass"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
-          <include name="loginTest"/>
         </methods>
-      </class> <!-- LoginTest.LoginTest -->
+      </class> <!-- ContactTest.createContactTest -->
+      <class name="ProductTest.createProductTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="addProductTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ProductTest.createProductTest -->
+      <class name="Login.LoginTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="loginTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Login.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
